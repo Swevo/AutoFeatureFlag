@@ -45,6 +45,6 @@
           Pack="true"
           PackagePath="analyzers/dotnet/cs"
           Visible="false" />
-    <None Include="build\AutoFeatureFlag.props" Pack="true" PackagePath="build\" />
+    <None Include="..\..\build\AutoFeatureFlag.props" Pack="true" PackagePath="build\" />
   </ItemGroup>
 </Project>
