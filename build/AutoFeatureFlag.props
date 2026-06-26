@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <AutoFeatureFlagAnalyzerDll>$(MSBuildThisFileDirectory)..\analyzers\dotnet\cs\AutoFeatureFlag.dll</AutoFeatureFlagAnalyzerDll>
+  </PropertyGroup>
+  <ItemGroup Condition="Exists('$(AutoFeatureFlagAnalyzerDll)')">
+    <Analyzer Include="$(AutoFeatureFlagAnalyzerDll)" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AutoFeatureFlag/AutoFeatureFlag.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AutoFeatureFlag.Tests/AutoFeatureFlag.Tests.csproj" />
+  </Folder>
+</Solution>
