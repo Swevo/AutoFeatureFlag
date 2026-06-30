@@ -136,6 +136,8 @@ public sealed class ConfigFeatureFlagProvider(IConfiguration config) : IFeatureF
 | [Swevo.EFCore.SoftDelete](https://github.com/Swevo/EFCore.SoftDelete) | Soft delete + global query filters |
 | [Swevo.EFCore.StronglyTyped](https://github.com/Swevo/EFCore.StronglyTyped) | Strongly-typed IDs for EF Core |
 | [Swevo.EFCore.Outbox](https://github.com/Swevo/EFCore.Outbox) | Transactional outbox pattern |
+| [AutoLog.Generator](https://github.com/Swevo/AutoLog.Generator) | Compile-time high-performance `LoggerMessage.Define` logging |
+| [AutoHttpClient.Generator](https://github.com/Swevo/AutoHttpClient.Generator) | Compile-time typed HTTP client. AOT-safe Refit alternative |
 
 ## License
 
