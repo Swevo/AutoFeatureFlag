@@ -1,8 +1,9 @@
 # Swevo.AutoFeatureFlag
 
-[![NuGet](https://img.shields.io/nuget/v/Swevo.AutoFeatureFlag
-[![NuGet Downloads](https://img.shields.io/nuget/dt/Swevo.AutoFeatureFlag.svg)](https://www.nuget.org/packages/Swevo.AutoFeatureFlag).svg)](https://www.nuget.org/packages/Swevo.AutoFeatureFlag)
+[![NuGet](https://img.shields.io/nuget/v/Swevo.AutoFeatureFlag.svg)](https://www.nuget.org/packages/Swevo.AutoFeatureFlag)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Swevo.AutoFeatureFlag.svg)](https://www.nuget.org/packages/Swevo.AutoFeatureFlag)
 [![CI](https://github.com/Swevo/AutoFeatureFlag/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/AutoFeatureFlag/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Compile-time feature flag stubs for .NET. Decorate an `enum` with `[FeatureFlags]` and get a strongly-typed interface and class — no reflection, no `Microsoft.FeatureManagement` overhead, AOT-safe.
 
